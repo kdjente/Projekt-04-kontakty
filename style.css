@@ -9,3 +9,46 @@ body {
 h1 {
 	text-align: center;
 }
+
+.tym {
+	margin: 20px
+}
+
+.osoba {
+	border: solid lightgrey;
+	border-radius: 15px;
+	box-shadow: 25px turquoise;
+	padding: 50px;
+	width: 500px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+img {
+	border-radius: 50%;
+}
+
+@media (min-width: 540px) {
+    .tym {
+        display: flex;
+        flex-wrap: wrap;
+		gap: 20px;
+    }
+
+	.osoba {
+		flex: 1 1 45%;
+		margin: 0;
+		
+	}
+}
+
+@media (min-width: 940px) {
+        .tym {
+			flex-wrap: nowrap;
+			flex: 1 1 calc(100% / 4);
+    }
+
+	.osoba {
+		display: block;
+	}
+}
