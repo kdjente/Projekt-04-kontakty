@@ -11,16 +11,16 @@ h1 {
 }
 
 .tym {
-	margin: 20px
+	margin: 5px
 }
 
 .osoba {
 	border: solid lightgrey;
 	border-radius: 15px;
 	box-shadow: 25px turquoise;
-	padding: 10px;
+	padding: 1px;
 	width: auto;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	text-align: center;
 }
 
@@ -32,7 +32,7 @@ img {
     .tym {
         display: flex;
         flex-wrap: wrap;
-		gap: 20px;
+		gap: 10px;
     }
 
 	.osoba {
@@ -46,6 +46,7 @@ img {
 	.foto, .popis {
 		flex: 0 0 50%;
 	}
+
 }
 
 @media (min-width: 940px) {
